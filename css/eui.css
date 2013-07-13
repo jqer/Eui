@@ -1,0 +1,65 @@
+html{
+    background: rgb(238,238,238);
+}
+
+body{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgb(250,250,250);
+    width: 250px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 0px 3px rgba(0,0,0,0.1) inset;
+}
+
+.msgtail{
+    position: absolute;
+    background-image: url(../img/euiicons.png);
+    background-repeat:  no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.msgtail-top{
+    background-position: 0 0;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+
+.msgtail-bottom{
+    background-position: -32px 0;
+    top: -24px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.msgtail-left{
+    background-position: -64px 0;
+    right: -24px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.msgtail-right{
+    background-position: -96px 0;
+    left: -24px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+
+
+#te{
+    width: 200px;
+    height: 200px;
+    background: rgb(0,0,0);
+    margin: 200px;
+}
